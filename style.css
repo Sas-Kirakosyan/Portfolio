@@ -1,0 +1,50 @@
+#ul{
+    padding-left: 50px;
+}
+
+a.nav-link:hover{
+color: rgb(177, 173, 165)
+}
+
+#background-image{
+    width: 100%;
+    margin-bottom: 45px;
+    position: relative;
+    z-index: -5000;
+}
+.container{
+    border: 1px solid #212529;
+    margin-bottom: 30px;
+    padding:10px;
+}
+div.col-md-3 col-sm-3{
+    margin:25px 0px;
+}
+#skblock{
+    margin: 30px 0px;
+}
+.skil-h2{
+    text-align: center;
+}
+div.row{
+    padding-left: 20px;
+}
+
+footer{
+    padding: 1% 11% ;
+    background: #212529;
+    color: white;
+ 
+}
+.navbar{
+    transition: top 0.3s;
+}
+div.name{
+    position: absolute;
+    text-align: center;
+    top: 38%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+    margin-left: 23%;
+    color: rgba(255, 255, 255, 0.829);
+}
