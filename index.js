@@ -14,15 +14,6 @@ var currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
 }
 
-window.scrollTo( 0, 1000 );
-
-// этот код меняет поведение прокрутки на "smooth"
-window.scrollTo({
-    top: 1000,
-    behavior: "smooth"
-});
-
-
 
 let navMenu = document.querySelector('#navbarsExampleDefault');
 let btnNav = document.querySelector('#btn')
