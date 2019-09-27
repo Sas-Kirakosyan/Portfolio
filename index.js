@@ -14,7 +14,6 @@ var currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
 }
 
-
 let navMenu = document.querySelector('#navbarsExampleDefault');
 let btnNav = document.querySelector('#btn')
 navMenu.style.display ="none";
@@ -24,9 +23,17 @@ if(navMenu.style.display === "none"){
 }else{
   navMenu.style.display ="none";
 }
-  
-    // navMenu.setAttribute('id', 'ul');
+})
 
 
+let seeMoreBtn =  document.querySelector('#see_more');
+let divACA = document.querySelector('.aca')
+divACA.style.display = 'none'
+seeMoreBtn.addEventListener('click', ()=>{
+if(divACA.style.display ==='none'){
+  divACA.style.display = 'block';
+}else{
+  divACA.style.display = 'none'
+}
 })
 
