@@ -23,6 +23,11 @@ if(navMenu.style.display === "none"){
 }else{
   navMenu.style.display ="none";
 }
+});
+let navbarArea = document.querySelector('.navbar-collapse');
+navbarArea.addEventListener('click', function(){
+ navbarArea.style.display = 'none';
+
 })
 
 
