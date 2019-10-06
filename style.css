@@ -18,7 +18,9 @@ html{
 a.nav-link:hover{
 color: rgb(177, 173, 165)
 }
-
+a{
+ display: initial;
+}
 #background-image{
     width: 100%;
     margin-bottom: 45px;
@@ -62,8 +64,8 @@ div.name{
     color: rgba(255, 255, 255, 0.829);
  }
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .navbar-nav {
-       display: none; 
+     width: 80px; 
     }
-  }  */
+  } 
